@@ -28,7 +28,9 @@ def sent_analyzer():
 
 @app.route("/")
 def render_index_page():
-    #This function initiates the rendering of the main application page over the Flask channel
+    ''' This function initiates the rendering of the main application
+        page over the Flask channel
+    '''
     return render_template('index.html')
 
 if __name__ == "__main__":
